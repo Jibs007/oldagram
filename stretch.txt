@@ -1,0 +1,4 @@
+1. Make it responsive 
+2. Figure out to render the image properly?
+3. Render all images with js 
+4. Make the likes increase by clicking on photo or like icon and also add background to the heart 
