@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;  
+    padding: 15px; 
+    border-bottom: 1px solid #C6C6C6;
+    background: #FFF;
+}
+
+#logo{
+    width: 127px;
+}
+
+#user-avatar{
+    width: 34px;
+    border-radius: 50px; 
+    align-self: center;
+}
+
+main{
+    width: 100%;
+    height: 545px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+#avatar-vangogh{
+    width: 34px;
+    border-radius: 50px;     
+    padding: 10px 9px 10px 15px;  
+}
+
+.post-info{
+    display: flex;
+}
+
+.username{
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.location{
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.post{
+    background-image: url('images/post-vangogh.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 545px;
+    background-position: center;
+}
+
+/* .post {
+    background-image: url('images/post-vangogh.jpg');
+    background-size: contain;
+    
+    width: 100%; 
+    height: 645px;
+} */
+
+
+.interaction-section-container{
+    width: 100%;
+    height: 150px;
+}
+
+.interaction-section{
+    width: 100%;
+    margin-left: 12px;
+}
+
+.icons{
+    width: 30px;
+    margin: 21px 5px 10px 5px;
+    transition: transform 0.3s ease;
+}
+
+.icons:hover{
+    transform: scale(1.1);
+}
+
+.like-comments{
+    margin: 2px 5px 20px 5px;
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;   
+}
+
+.commenter, .like-count{
+    font-weight: bold;
+}
+
